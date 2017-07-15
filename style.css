@@ -4,9 +4,39 @@ body {
 	font-family: 'Georgia', sans-serif;
 }
 
+.topnav a {
+  background-color: rgb(42,42,42);
+  color: white;
+  font-size: 18px;
+  display: block;
+  float:right;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a:active {
+  background-color: white;
+  color: black;
+}
+
 .introduction h1 {
   color: white;
   text-align: center;
+}
+
+.mylist {
+  background-color: rgb(42,42,42);
+  padding: 25px;
+  padding-left: 70px;
+  padding-right: 70px
+  border: 1px;
+  border-style: dashed;
 }
 
 .mylist h3 {
