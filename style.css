@@ -4,6 +4,10 @@ body {
 	font-family: 'Georgia', sans-serif;
 }
 
+.topnav {
+  overflow: hidden;
+}
+
 .topnav a {
   background-color: rgb(42,42,42);
   color: white;
@@ -30,13 +34,26 @@ body {
   text-align: center;
 }
 
+.dates {
+  float: right;
+  background-color: rgb(42,42,42);
+  border-style: solid;
+  border-radius: 20px;
+  color: white;
+  width: 200px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+
 .mylist {
   background-color: rgb(42,42,42);
   padding: 25px;
   padding-left: 70px;
-  padding-right: 70px
-  border: 1px;
-  border-style: dashed;
+  padding-right: 70px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-radius: 20px;
 }
 
 .mylist h3 {
@@ -47,4 +64,5 @@ body {
 .mylist p {
   color: white;
   text-align: left;
+  padding-top: 20px;
 }
