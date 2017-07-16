@@ -76,5 +76,11 @@ img {
 	height: 300px;
 	width: 600px;
 	margin: auto;
-	width: 50%
+	width: 50%;
+	color:white;
+	font-size: 1em;
+	text-align: right;
+	background-image: url("https://raw.githubusercontent.com/0rammar0/learninggit/master/pics/forrest.jpg");
+	/*cover forces the div's content to be completely covered by the image. ie, full image will be shown with content on top of it*/
+	background-size: cover;
 }

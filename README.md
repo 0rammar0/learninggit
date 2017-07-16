@@ -89,6 +89,11 @@ Does an integrity check of the Git file system, identifying corrupted objects. E
 git prune
 Removes objects that are no longer pointed to by any object in any reachable branch. Example: git prune -->
 
+<!-- Delete any changes made and revert to latest code source
+git fetch origin
+git reset --hard origin/master -->
+
+
 <!--HTML Attributes
 Below is an alphabetical list of some attributes often used in HTML:
 
