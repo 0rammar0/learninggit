@@ -34,6 +34,11 @@ body {
   text-align: center;
 }
 
+.introduction h3 {
+	color: lightblue;
+	text-align: left;
+}
+
 .dates {
   float: right;
   background-color: rgb(42,42,42);
@@ -51,14 +56,19 @@ body {
   padding: 25px;
   padding-left: 70px;
   padding-right: 70px;
-  border-bottom: 1px;
-  border-style: solid;
-  border-radius: 20px;
+  border: 1px;
+}
+
+.listcontainer {
+	border-bottom-color: white;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
 }
 
 .mylist h3 {
   color: green;
   text-align: left;
+	padding-top: 20px;
 }
 
 .mylist p {
